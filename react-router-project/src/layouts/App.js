@@ -11,12 +11,14 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <header>{<Header />}</header>
-        <main>
-          <aside>{<Navigation />}</aside>
-          <section className="blog">{<Page />}</section>
-        </main>
-        <footer>{<Footer />}</footer>
+        <div className="app">
+          <header>{<Header />}</header>
+          <main>
+            <aside>{<Navigation />}</aside>
+            <section className="page">{<Page />}</section>
+          </main>
+          <footer>{<Footer />}</footer>
+        </div>
       </Router>
     );
   }
