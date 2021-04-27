@@ -4,30 +4,24 @@ div.app {
   flex-direction: column;
   min-height: 100vh;
   margin: 0 auto;
-  /* background-color: #ddd; */
   color: #222;
 }
 
 header {
   flex-basis: 30vh;
-  /* background-color: aqua;
-  color: white; */
 }
 
 main {
   display: flex;
   padding: 30px 0;
-  /* background-color: #555; */
   flex-grow: 1;
 }
 
 aside {
   min-width: 240px;
-  /* background-color: blueviolet; */
 }
 
 section.page {
-  /* background-color: red; */
   flex-grow: 1;
 }
 
