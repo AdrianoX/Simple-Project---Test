@@ -20,27 +20,7 @@ const Navigation = () => {
 
   return (
     <nav className="main">
-      <ul>
-        {/* <li>
-          <NavLink to="/">Start</NavLink>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <NavLink to="Products">Products</NavLink>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <NavLink to="contact">Contacts</NavLink>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <NavLink to="admin">Admin Panel</NavLink>
-        </li> */}
-        {menu}
-      </ul>
+      <ul>{menu}</ul>
     </nav>
   );
 };
