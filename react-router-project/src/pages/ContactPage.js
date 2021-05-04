@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/ContactPage.css";
+import { Prompt } from "react-router-dom";
 
 class ContactPage extends React.Component {
   state = {
@@ -32,6 +33,10 @@ class ContactPage extends React.Component {
           ></textarea>
           <button>Send</button>
         </form>
+        <Prompt
+          when={this.state.value}
+          message={"Your form is empty ! Are you sure you want to move on ?"}
+        />
       </div>
     );
   }
