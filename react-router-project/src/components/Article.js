@@ -24,7 +24,7 @@ const Article = ({ title, author, text }) => {
       >
         {author}
       </span>
-      <p> {text}</p>
+      <p style={{ fontSize: 15 }}> {text}</p>
     </article>
   );
 };
