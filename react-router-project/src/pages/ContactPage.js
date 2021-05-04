@@ -1,8 +1,16 @@
 import React from "react";
+import "../styles/ContactPage.css";
 
 class ContactPage extends React.Component {
   state = {
     value: "",
+  };
+
+  handleSubmit = (e) => {
+    e.preventDefault();
+    this.setState({
+      value: "",
+    });
   };
 
   handleChange = (e) => {
@@ -15,7 +23,7 @@ class ContactPage extends React.Component {
     return (
       <div className="contact">
         Contact
-        <form>
+        <form onSubmit={this.handleSubmit}>
           <h3>Write to us...</h3>
           <textarea
             value={this.state.value}
