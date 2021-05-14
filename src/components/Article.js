@@ -29,4 +29,4 @@ const Article = ({ title, author, text }) => {
   );
 };
 
-export default Article; // commit test
+export default Article; // commit test 2
